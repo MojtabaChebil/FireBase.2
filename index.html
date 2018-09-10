@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+</head>
+<body>
+	<center>
+	<div id="col">
+	<h1>Hello</h1>
+</div>
+	<div id="all"style="display: flex;" >
+<div id="top">
+<form id="contactform">
+	<h3 class="n">Name</h3>
+	<input id="name"type="text"name="firstname"  required>
+	<h3 class="company">Company</h3>
+	<input id="company" type="text" name="firstname" required>
+	<h3 class="email">Email</h3>
+	<input id="email" type="email" name="email"  required>
+	<h3 class="phone">phone</h3>
+	<input id="phone" type="phone" name="phone"  required>
+	<h3 class="text"> Message</h3>
+	<textarea id="message" type="text" name="firstname" ></textarea>
+	<br>
+	 <div class="hajaOra">Thank you </div>
+    <input type="submit" name="Submit" value="Submit" id="submit"  >
+</form>
+	</div>
+	
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAcsjQMW3Lgy5rXdGxgq2M1dPO29rRQI8g",
+    authDomain: "mojtaba-d7536.firebaseapp.com",
+    databaseURL: "https://mojtaba-d7536.firebaseio.com",
+    projectId: "mojtaba-d7536",
+    storageBucket: "mojtaba-d7536.appspot.com",
+    messagingSenderId: "550401956451"
+  };
+  firebase.initializeApp(config);
+</script>
+</html>

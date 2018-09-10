@@ -1,0 +1,82 @@
+body
+{
+	background-color: #92bde7;
+}
+
+#col{
+	background-color:#8AA3FF;
+	width:60%;
+	height:20%;
+	text-shadow: 2px 2px black;
+	color: white;
+}
+#top{
+	width:60%;
+	background-color:#f9feff;
+	margin:auto;
+	height: 80%;
+   text-shadow: black 2px 4px 8px;
+	}
+#sub{
+	width:90%;
+	height: 5%;
+}
+#message{
+	width:90%;
+	height:15%;
+    box-shadow:#494A4D  5px 8px 8px;
+}
+
+#email{
+	width:50%;
+	height: 8%;
+	margin-right:40%;
+    box-shadow:#888888  5px 8px 8px;
+}
+#name{
+	width: 50%;
+	height:8%;
+    margin-right:40%;
+    box-shadow:#888888  5px 8px 8px;
+
+}
+#company{
+	width: 50%;
+	height:8%;
+    margin-right:40%;
+    box-shadow:#888888  5px 8px 8px;
+
+}
+#phone{
+	width: 50%;
+	height:8%;
+    margin-right:40%;
+    box-shadow:#888888  5px 8px 8px;
+
+}
+.n{
+	margin-right:83%;
+}
+.phone{
+	margin-right:83%;
+}
+.company{
+	margin-right:80%;
+}
+.email{
+	margin-right:83%;
+}
+.text{
+	margin-right:80%;
+}
+
+
+
+.hajaOra {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
